@@ -1,0 +1,27 @@
+
+
+============================== 2022-07-14 23:31:08.753216 | 969e614f-1456-4614-824a-0df51c298cf4 ==============================
+23:31:08.753236 [info ] [MainThread]: Running with dbt=1.1.1
+23:31:08.753893 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/fossa/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+23:31:08.754138 [debug] [MainThread]: Tracking: tracking
+23:31:08.755029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6297a79510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6297a79250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6297a79210>]}
+23:31:08.755591 [info ] [MainThread]: Creating dbt configuration folder at /home/fossa/.dbt
+23:31:17.259626 [debug] [MainThread]: Starter project path: /home/fossa/data/dbt/venv/lib/python3.7/site-packages/dbt/include/starter_project
+23:33:48.554624 [info ] [MainThread]: Profile dbtweek written to /home/fossa/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+23:33:48.555118 [info ] [MainThread]: 
+Your new dbt project "dbtweek" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+23:33:48.555537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6297a53fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6297a53350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6295f6af90>]}
